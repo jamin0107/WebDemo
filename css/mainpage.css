@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0 }
+body { width: 100%; height: 500px; background: "/img/main_bg.jpg" }
+#title_left { height: 35px; width: 50%; background: #334558; float: left }
+#title_right { height: 35px; width: 50%; background: #334558; float: right; text-align: right }
+#textcss { color: #ffffff; font-size: 15px; text-align: center; margin-left: 10px; line-height: 35px }
+#logo_layout { width: 270px; height: 129px; margin: 0 auto;  border: 1px solid #ff0; }
+#logo { width: 270px; height: 129px;border: 1px solid #ff0; }
