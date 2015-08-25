@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1000px;
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    display: block;
+}
+
+.top a {
+    width: 30px;
+    margin: auto 0 0 20px;
+    vertical-align: middle;
+}
+
+.top a img {
+    vertical-align: middle;
+}
+
+.top p {
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    margin: auto 0 0 20px;
+    vertical-align: middle;
+    padding-left: 30px;
+    border-left: 2px solid #c2c2c2;
+}
+
+.middle {
+    display: block;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+.bottom {
+    display: block;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+.right {
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+
+.rightitem {
+    display: block;
+    height: 12.5%;
+    min-height: 110px;
+    width: 100%;
+    position: relative;
+}
+
+.circlefloat {
+    float: left;
+    left: 40%;
+    position: absolute;
+    z-index: 3;
+}
+
+.circlefloat img {
+    height: 1000px;
+    display: block;
+    border: none;
+}
